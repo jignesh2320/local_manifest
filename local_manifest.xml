@@ -8,11 +8,14 @@
     <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+    <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="temp"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
     <remove-project name="platform/system/bpf" />
     <project path="system/bpf" name="system_bpf" remote="evp-gh" revision="thirteen" />
+    <remove-project name="packages_apps_Updates" />
+    <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
 </manifest> 
