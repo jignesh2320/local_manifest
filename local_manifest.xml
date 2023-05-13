@@ -16,6 +16,7 @@
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
     <remove-project name="packages_apps_Updates" />
     <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
 </manifest> 
 
