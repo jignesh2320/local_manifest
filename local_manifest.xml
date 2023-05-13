@@ -4,6 +4,7 @@
     <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
     <remote name="evp-gh" fetch="https://github.com/Xiaomi-MT6833" />
     <remote name="evp-gl" fetch="https://gitlab.com/Xiaomi-MT6833" />
+    <remote name="sus-gl" fetch="https://gitlab.com/Sushrut1101" />
     <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
     <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
@@ -15,5 +16,6 @@
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
     <remove-project name="packages_apps_Updates" />
     <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
+    <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
 </manifest> 
 
