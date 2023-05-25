@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="my-gh" fetch="https://github.com/weaponmasterjax" />
-    <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
+    <remote name="my-gl" fetch="https://gitlab.com/sd369888" />
     <remote name="evp-gh" fetch="https://github.com/Xiaomi-MT6833" />
     <remote name="evp-gl" fetch="https://gitlab.com/Xiaomi-MT6833" />
     <remote name="sus-gl" fetch="https://gitlab.com/Sushrut1101" />
