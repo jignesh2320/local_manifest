@@ -18,6 +18,6 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
     <project path="hardware/mediatek" name="hardware_mediatek" remote="evp-gh" revision="thirteen"/>
-    <project path="device/xiaomi/everpal-kernel" name=" device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
+    <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
 </manifest> 
 
