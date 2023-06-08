@@ -21,6 +21,5 @@
     <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="my-gh" revision="thirteen" />
     <remove-project name="RisingOSS-devices/android_vendor_RisingOTA" />
     <project path="vendor/risingOTA" name="android_vendor_RisingOTA" remote="org-evp" revision="thirteen" />
-    <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="evp-gh" revision="mtk"/>
 </manifest> 
 
