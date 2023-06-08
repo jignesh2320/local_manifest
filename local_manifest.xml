@@ -22,6 +22,5 @@
     <remove-project name="RisingOSS-devices/android_vendor_RisingOTA" />
     <project path="vendor/risingOTA" name="android_vendor_RisingOTA" remote="org-evp" revision="thirteen" />
     <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="my-gh" revision="13.0"/>
-    <remove-project name="packages/apps/FMRadio" />
 </manifest> 
 
