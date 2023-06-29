@@ -16,5 +16,6 @@
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
     <project path="hardware/mediatek" name="hardware_mediatek" remote="evp-gh" revision="thirteen"/>
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evp-gh" revision="thirteen" />
 </manifest> 
 
