@@ -11,7 +11,7 @@
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="nash" fetch="https://github.com/nashc-dev" />
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-evox-temp"/>
+    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="pex2"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
