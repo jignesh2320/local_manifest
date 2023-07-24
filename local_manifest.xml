@@ -18,5 +18,6 @@
     <project path="hardware/mediatek" name="hardware_mediatek" remote="evp-gh" revision="thirteen"/>
     <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evp-gh" revision="thirteen" />
+    <project path="private_patches" name="private_patches" remote="org-evp" revision="lineage-20"/>
 </manifest> 
 
