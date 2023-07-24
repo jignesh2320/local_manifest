@@ -22,5 +22,7 @@
     <project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="nash" revision="lineage-20"/>
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
     <project path="private_patches" name="private_patches" remote="org-evp" revision="lineage-20"/>
+    <remove-project name="packages_modules_Bluetooth" />
+    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="my-gh" revision="13"/>
 </manifest> 
 
