@@ -11,6 +11,11 @@
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="nash" fetch="https://github.com/nashc-dev" />
+    <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-evox-temp"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
@@ -24,5 +29,8 @@
     <project path="private_patches" name="private_patches" remote="org-evp" revision="lineage-20"/>
     <remove-project name="packages_modules_Bluetooth" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="my-gh" revision="13"/>
+    <remove-project name="platform/packages/apps/DeskClock" />
+    <project path="packages/apps/DeskClock" name="crdroidandroid/android_packages_apps_DeskClock" remote="crdroid" />
+
 </manifest> 
 
