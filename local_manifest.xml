@@ -11,9 +11,10 @@
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="nash" fetch="https://github.com/nashc-dev" />
+    <remote name="rio" fetch="https://github.com/dm700-devs" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-evox-temp"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rio" revision="thirteen" />
     <remove-project name="packages_apps_Updates" />
     <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
