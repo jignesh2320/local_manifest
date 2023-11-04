@@ -10,7 +10,7 @@
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="nash" fetch="https://github.com/nashc-dev" />
     <remote name="rio" fetch="https://github.com/dm700-devs" />
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-evox-temp"/>
+    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="pyro-next"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="org-evp" revision="lineage-20" />
     <project path="packages/apps/Updates" name="packages_apps_Updates-spark" remote="org-evp" revision="pyro"/>
