@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="my-gh" fetch="https://github.com/weaponmasterjax" />
-    <remote name="my-gl" fetch="https://gitlab.com/sd369888" />
-    <remote name="evp-gh" fetch="https://github.com/Xiaomi-MT6833" />
-    <remote name="evp-gl" fetch="https://gitlab.com/Xiaomi-MT6833" />
-    <remote name="sus-gl" fetch="https://gitlab.com/Sushrut1101" />
-    <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
-    <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
-    <remote name="los-gh" fetch="https://github.com/LineageOS" />
-    <remote name="clang" fetch="https://gitlab.com/Amritorock" />
-    <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
-    <remote name="nash" fetch="https://github.com/nashc-dev" />
-    <remote name="rio" fetch="https://github.com/dm700-devs" />
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-evox-temp"/>
-    <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
-    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rio" revision="thirteen" />
-    <remove-project name="packages_apps_Updates" />
-    <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="tm"/>
-    <project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="nash" revision="lineage-20"/>
-    <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
-    <remove-project name="packages_modules_Bluetooth" />
-    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="my-gh" revision="13"/>
-    <remove-project name="platform/packages/apps/DeskClock" />
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los-gh" revision="lineage-20.0"/>
-    <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
-    <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
-</manifest> 
-
+  <remote name="my-gh" fetch="https://github.com/weaponmasterjax"/>
+  <remote name="my-gl" fetch="https://gitlab.com/sd369888"/>
+  <remote name="los-gh" fetch="https://github.com/LineageOS"/>
+  <remote name="pqed-gh" fetch="https://github.com/PQEnablers-Devices"/>
+  <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED"/>
+  <remote name="iusmac" fetch="https://github.com/iusmac" revision="mtk" />
+  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="my-gh" />
+  <project path="vendor/xiaomi/dolby" name="vendor_xiaomi_dolby-everpal" remote="my-gl" revision="thirteen"/>
+  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-everpal" remote="my-gl" revision="thirteen"/>
+  <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="udc"/>
+  <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen"/>
+  <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="my-gh" revision="thirteen"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="lineage-20-foss"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="org-evp" revision="lineage-20"/>
+  <remove-project name="packages_apps_Updates" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="udc"/>
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los-gh" revision="lineage-21.0"/>
+</manifest>
