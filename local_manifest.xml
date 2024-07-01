@@ -15,16 +15,9 @@
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-ap-13"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="org-evp" revision="lineage-20" />
-    <remove-project name="packages_apps_Updates" />
-    <project path="packages/apps/Updates" name="packages_apps_Updates" remote="org-evp" revision="tiramisu"/>
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="tm"/>
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="lineage-20"/>
     <project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="nash" revision="lineage-20"/>
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
-    <remove-project name="packages_modules_Bluetooth" />
-    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="my-gh" revision="13"/>
-    <remove-project name="platform/packages/apps/DeskClock" />
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los-gh" revision="lineage-20.0"/>
 </manifest> 
 
