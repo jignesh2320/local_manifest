@@ -12,12 +12,15 @@
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
     <remote name="nash" fetch="https://github.com/nashc-dev" />
     <remote name="rio" fetch="https://github.com/dm700-devs" />
+    <remote name="taqi-gl" fetch="https://gitlab.com/mmtrt" />
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix-ap-13"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="org-evp" revision="lineage-20" />
     <project path="hardware/awinic/vibrator" name="hardware_awinic_vibrator" remote="sus-gl" revision="lineage-20.0"/>
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="lineage-20"/>
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="org-evp" revision="lineage-20-foss"/>
     <project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="nash" revision="lineage-20"/>
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
+    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-everpal" remote="taqi-gl" revision="thirteen"/>
 </manifest> 
+
 
