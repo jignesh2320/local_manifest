@@ -21,6 +21,7 @@
     <project path="hardware/mediatek_wlan" name="android_hardware_mediatek_wlan" remote="nash" revision="lineage-20"/>
     <project path="device/xiaomi/everpal-kernel" name="device_xiaomi_everpal-kernel" remote="evp-gh" revision="thirteen"/>
     <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-everpal" remote="taqi-gl" revision="thirteen"/>
+    <project path="vendor/extra" name="vendor_extra-propertary" remote="my-gh" revision="main"/>
 </manifest> 
 
 
