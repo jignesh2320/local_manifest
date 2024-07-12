@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- remote names -->
+    <remote name="sn" fetch="https://github.com/snnbyyds/" />
+    <remote name="sn-org" fetch="https://github.com/OnePlusACE3-development/" />
+    <remote name="jax" fetch="https://github.com/weaponmasterjax/" />
+
+    <!-- device tree deps-->
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="alpha-14" remote="jax" />
+
+    <!-- common tree -->
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-21" remote="sn-org" />
+
+    <!-- ktree -->
+    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="sn-org" />
+
+    <!-- kmod -->
+    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-21" remote="sn-org" />
+
+    <!-- kdtsi -->
+    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21" remote="sn-org" />
+
+    <!-- hardware/oplus -->
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="sn-org" />
+
+    <!-- vendor device -->
+    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-21" remote="sn-org" />
+
+    <!-- vendor common -->
+    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="sn-org" />
+
+</manifest>
