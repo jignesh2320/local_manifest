@@ -30,4 +30,7 @@
     <!-- vendor common -->
     <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="sn-org" />
 
+    <!-- prebuilt dtb -->
+    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="jax" />
+
 </manifest>
