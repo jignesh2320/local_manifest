@@ -6,12 +6,14 @@
     <remote name="sn-org" fetch="https://github.com/OnePlusACE3-development/" />
     <remote name="jax" fetch="https://github.com/weaponmasterjax/" />
     <remote name="jax-gl" fetch="https://gitlab.com/sd369888/" />
+    <remote name="AOSPA" fetch="https://github.com/AOSPA/" />
+    <remote name="M" fetch="https://github.com/ThankYouMario/" />
 
     <!-- device tree deps-->
-    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="alpha-14" remote="sn-org" />
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="rising-14" remote="sn-org" />
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="alpha-14" remote="sn-org" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="rising-14" remote="sn-org" />
 
     <!-- ktree -->
     <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="sn-org" />
@@ -33,5 +35,11 @@
 
     <!-- prebuilt dtb -->
     <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="jax" />
+
+    <!-- qcom common -->
+    <project path="device/qcom/common" name="android_device_qcom_common" revision="uvite" remote="AOSPA" />
+
+    <!-- qcom common -->
+    <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" revision="uvite" remote="M" />
 
 </manifest>
