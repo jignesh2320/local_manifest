@@ -36,6 +36,9 @@
     <!-- prebuilt dtb -->
     <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="jax" />
 
+    <!-- ksu manager -->
+    <project path="packages/apps/kernelsu" name="packages_apps_kernelsu" remote="jax" />
+
     <!-- qcom common -->
     <project path="device/qcom/common" name="android_device_qcom_common" revision="uvite" remote="AOSPA" />
 
